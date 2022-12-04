@@ -9,7 +9,7 @@ type Props = {
 
 export default function Layout({ children }: Props) {
   return (
-    <>
+    <main className="flex flex-col items-center justify-center min-h-screen">
       {/** Navbar */}
       <Navbar />
 
@@ -23,6 +23,6 @@ export default function Layout({ children }: Props) {
 
       {/** Footer */}
       <Footer />
-    </>
+    </main>
   );
 }
