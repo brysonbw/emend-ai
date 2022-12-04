@@ -1179,6 +1179,11 @@ has@^1.0.3:
   dependencies:
     function-bind "^1.1.1"
 
+heroicons@^2.0.13:
+  version "2.0.13"
+  resolved "https://registry.yarnpkg.com/heroicons/-/heroicons-2.0.13.tgz#c1f65b9a02c5c05f4b51da8edf2413e2494e9005"
+  integrity sha512-INL+CaS5eJ8+kkXc6kz+i/4m6AWYESGpyorDIZDPH281vZWjV/W6coGmXVZdvyYVLIbPx0id4fPbWvCj//MW5A==
+
 ignore@^5.2.0:
   version "5.2.1"
   resolved "https://registry.yarnpkg.com/ignore/-/ignore-5.2.1.tgz#c2b1f76cb999ede1502f3a226a9310fdfe88d46c"
