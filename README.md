@@ -11,6 +11,8 @@ $ git clone git@github.com:brysonbw/emend-ai.git
 
 $ cd emend-ai
 
+$ rm -rf .git
+
 $ yarn
 ```
 
