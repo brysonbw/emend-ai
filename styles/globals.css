@@ -10,3 +10,18 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     @apply bg-main-bg text-white
 }
+
+input {
+  margin-top: 20px;
+  color: black;
+  padding-left: 5px;
+}
+
+input::placeholder {
+  color: gray;
+}
+
+form p {
+  color: red;
+  font-size: small;
+}
