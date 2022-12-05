@@ -14,6 +14,17 @@ $ cd emend-ai
 $ yarn
 ```
 
+## Generate Open AI API Key
+```bash
+$ cp .env.example .env.local # or .env instead of .env.local
+
+# create account and generate API Key
+https://beta.openai.com/account/api-keys
+
+#.env.local
+OPENAI_API_KEY=<ENTER_YOUR_API_KEY>
+```
+
 ## Developing
 
 ```bash
