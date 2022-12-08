@@ -11,17 +11,19 @@ body {
     @apply bg-main-bg text-white
 }
 
-input {
-  margin-top: 20px;
-  color: black;
-  padding-left: 5px;
-}
 
 input::placeholder {
-  color: gray;
+  @apply text-gray-400
 }
 
 form p {
-  color: red;
-  font-size: small;
+  @apply text-red-600 font-normal text-xs mr-auto mt-[.2rem]
+}
+
+form textarea, input{
+  @apply  p-3 mt-2 text-black rounded w-full border border-gray-400 appearance-none focus:outline-main-bg
+}
+
+form label {
+  @apply text-main-bg text-base mt-5 mr-auto
 }
