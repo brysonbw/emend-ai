@@ -14,7 +14,8 @@ const recipientSchema = z.object({
     .min(1, { message: 'min 1 character' })
     .max(50, { message: 'job title too long' })
     .trim()
-    .optional(),
+    .optional()
+    .or(z.literal('')),
 });
 
 // Sender
