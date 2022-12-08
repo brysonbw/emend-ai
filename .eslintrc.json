@@ -27,6 +27,7 @@
     "@typescript-eslint/no-use-before-define": 0,
     "no-console": "off",
     "no-alert": "off",
-    "func-names": "off"
+    "func-names": "off",
+    "jsx-a11y/label-has-associated-control": ["error", { "assert": "either" } ]
   }
 }
