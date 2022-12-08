@@ -3,13 +3,9 @@ import Home from './index';
 import '@testing-library/jest-dom';
 
 describe('<Home />', () => {
-  it('renders a heading', () => {
+  it('renders <Home /> component', () => {
     render(<Home />);
-
-    const heading = screen.getByRole('heading', {
-      name: 'Emend AI: A GPT3 Email Generator',
-    });
-
-    expect(heading).toBeInTheDocument();
+    const mainElement = screen.getByRole('main');
+    expect(mainElement).toBeInTheDocument();
   });
 });
